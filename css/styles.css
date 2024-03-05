@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(148, 217, 235);
+    padding: 50px;
+}
+
+h1 {
+    color:black;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    color:black;
+    text-align:left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2px;
+}
+img {
+    width: 30%;
+}
+
+.lista {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.botao {
+    border: solid 5px rgb(4, 89, 150);
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(4, 89, 150);
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    align-items: center;
+    width: 24.8%;
+}
+
+.botao:hover {
+    background-color: rgb(4, 89, 150);
+    color: white;
+    transform: scale(1.7);
+}
